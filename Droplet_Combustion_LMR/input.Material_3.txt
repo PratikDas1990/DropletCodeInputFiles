@@ -1,0 +1,103 @@
+##########################################################
+Material_3
+##########################################################
+Phase------------------------------------------ =1
+Material Type                                   =13
+density                                         =3333.0
+viscosity                                       =0.223
+thermal conductivity (k)                        =0.223
+Boussinesq coefficient                          =0.223
+Melting temp (lower limit)                      =0.223
+Melting temp (upper limit)                      =0.223
+Latent heat                                     =0.223
+Cp                                              =2.0
+Mach number                                     =0.115
+surface tension                                 =0.116
+Prandtl number                                  =0.116
+$ICInitial temperature------------------------- =1.7807
+Initial density                                 =1.0
+Initial velocity u                              =0.07
+Initial velocity v                              =0.07
+Initial velocity w                              =0.07
+Initial pressure                                =1.0
+Shock location                                  =1.0
+dyn. BC def (0,1,2 Zero,Pot,UserDef)            =0
+IC Type (0,1,2 Zero,Pot,UserDef)                =2
+$Interface type-------------------------------- =5
+treatment type                                  =5
+GFM moving scheme                               =3
+LS movement scheme                              =2
+LS generation scheme                            =1
+$SIMMotion (TRANSL=1,ROTATION=2)--------------- =2
+density_solid/density_fluid                     =1.0
+natural frequency                               =1.07
+damping coefficient                             =1.07
+Froude number                                   =1.0
+initial center of mass velocity  x              =1.0
+initial center of mass velocity  y              =1.0
+initial center of mass velocity  z              =1.0
+initial center of mass acceleration  x          =1.0
+initial center of mass acceleration  y          =3.0
+initial center of mass acceleration  z          =1.0
+fixed rotation axis                             =0
+fixed rotation axis center  x                   =1.0
+fixed rotation axis center  y                   =1.0
+fixed rotation axis center  z                   =1.0
+initial rotation angle                          =1.0
+initial rotation rate                           =0.0
+initial rotation acceleration                   =0.0
+minimum rotation angle                          =10000.0
+maximum rotation angle                          =10000.0
+$SPMParticles available as linked list?-------- =0
+Type of SPM generation (analytic=0/ls=1)        =0
+Random Placement of the partilces(yes=1/No=0)   =1
+Particle shape                                  =1
+Particle diameters (x_dir)                      =1.0
+Particle diameters (y_dir)                      =1.0
+Particle diameters (z_dir)                      =1.0
+Number of particles to start linked list        =50
+Density of the particle                         =2.0
+Distance among the particle (x-dir)             =2.0
+Distance among the particle (y-dir)             =2.0
+Distance among the particle (z-dir)             =2.0
+Motion (Fix=0,TRANSL.=1,F.A.ROTATION=2)         =1
+Froude Number                                   =0.1
+Initial Velocity (x-dir)                        =0.0
+Initial Velocity (y-dir)                        =0.0
+Initial Velocity (z-dir)                        =0.0
+Initial Location (x-dir)                        =6.0
+Initial Location (y-dir)                        =6.0
+Initial Location (z-dir)                        =6.0
+Particle Box dimensions (x-dir)                 =3.0
+Particle Box dimensions (y-dir)                 =3.0
+Particle Box dimensions (z-dir)                 =3.0
+$ELAS EOS Type------------------------------    =1
+Number of EOS Parameters                        =3
+Parameter                                       =3.33
+Parameter                                       =3.33
+Parameter                                       =3.33
+Elasticity (YES=1,NO=0)                         =0
+Model Type (Elasticity)                         =1
+Number of Elasticity Parameters                 =2
+Parameter                                       =1.07
+Parameter                                       =1.0
+Viscoelasticity (YES=1,NO=0)                    =0
+Model Type  (Viscoelastic)                      =1
+Number of Viscoelasticity Parameters            =2
+Parameter                                       =1.07
+Parameter                                       =1.0
+Parameter                                       =1.07
+Parameter                                       =1.06
+Use Plasticity (YES=1,NO=0)                     =0
+Model Type  (Viscoplasticity)                   =1
+Number of Viscoplastic Parameters               =1
+Parameter                                       =1.079
+#######################################################
+ 
+Bulk Fluid Type: FREE-SURFACE(0) LIQUID(2) SOLID-ELASTOPLASTIC(3)
+Material Type: RIGID MOVING(1) VOID(2) AIR_INVISCID_STIFFENEDEOS(3) AIR_VISCOUS_STIFFENEDEOS(4) 
+WATER_INVISCID_STIFFENEDEOS(5) WATER_VISCOUS_STIFFENEDEOS(6) COPPER_JOHNSONCOOK_MG(7) 
+STEEL_JOHNSONCOOK_MG(8) TUNGSTEN_JOHNSONCOOK_MG(9) HMX_JOHNSONCOOK_MG(10) 
+MILDSTEEL_JOHNSONCOOK_MG(11) ALUMINUM_JOHNSONCOOK_MG(12) USER DEFINED(13)
+ 
+#######################################################

@@ -1,0 +1,113 @@
+##########################################################
+$PrimaryOpts
+##########################################################
+dimension (2D=2,3D=3)                           =2
+Incom (0), Incomp w/ Temps (1), or Comp (2)     =2
+Levels of LMR (None=2,or 3-6)                   =5
+Number of Level Sets                            =1
+##########################################################
+$GridDomain
+##########################################################
+domain size x                                   =10.0
+domain size y                                   =5.0
+domain size z                                   =0.0
+grid spacing dx                                 =0.05
+grid spacing dy                                 =0.05
+grid spacing dz                                 =0.1
+axisymmetric model (YES=1,NO=0)                 =0
+partition strategy (BASE=0,LEAF=1)------------  =0
+load balance mode (CELLCOUNT=1,CELLWORK=2)      =2
+timesteps elapsed before starting lmr---------  =0
+interval between lmr refinement                 =5
+relative weights for grad of solution           =1.0
+relative weights for vort of solution           =1.0
+refinement tol (grad and hessian)               =0.001
+refinement tol temp (grad and hessian)          =0.01
+trim mesh (YES=1,NO=0)                          =0
+Read in multiple files for obj?---------------  =0
+use fastmarching for extensions (YES=1,NO=0)    =0
+CFL_extV (< 1 since Euler timestepping is used) =0.504
+min iterations for reinitializing process       =50
+max iterations for reinitializing process       =100
+CFL for re-initialize(<1/2:stable)              =0.1
+interval at which reinitialization initiates    =5
+RK time stepping Order for Levelset             =0
+reinitilization tolerance                       =0.001
+levelset collision (YES=1,NO=0)                 =0
+##########################################################
+$TimeStep
+##########################################################
+Time step control mode(0=steps/1=time)          =0
+interval to compute(INT/REAL)                   =5000
+starting time step                              =.00000001
+adapt time step?                                =1
+flow CFL                                        =0.5
+interface CFL                                   =0.5
+restart folder? (0 if no restart)               =0
+$dynamic update of sim length(0=no, 1=yes)----  =0
+interval to compute (int/real)                  =800.0
+dynamic update of plot interval                 =0
+interval to plot movies (int/real)              =100.0
+##########################################################
+$Flow
+##########################################################
+convergence criterion for u,v,T (incompress.)   =0.0001
+convergence criterion for p (incompressible)    =0.0001
+gravity (x) (for incompressible)                =0.0
+gravity (y) (for incompressible)                =0.0
+gravity (z) (for incompressible)                =0.0
+solve for liquid fraction                       =0
+liquid fraction multiplier                      =10.0
+SOLVE_ELASTO_PLASTIC FLOW                       =0
+SOLVE_DAMAGE                                    =0
+DEBONDING                                       =0
+ENO Order for Compressible Flow (2 or 3)        =3
+RK Time Stepping Order for Compressible Fl(2/3) =3
+RKC sub steps                                   =0
+Minimum number of RKS substeps                  =10
+Reaction   Flag(off=0,on=1) for Compressible    =0
+No. of species                                  =1
+##########################################################
+$PostProc
+##########################################################
+plot file format (1=tecplot/2=vtk)              =1
+movie plot control mode(0=steps/1=time)         =0
+interval to plot(movie)                         =50
+number of variables to plot in movie file       =8
+variable                                        =1
+variable                                        =2
+variable                                        =3
+variable                                        =7
+variable                                        =9
+variable                                        =13
+variable                                        =18
+variable                                        =19
+interval to plot(liftdrag)                      =10
+##########################################################
+$UserDef
+##########################################################
+Real Parameter 1                                =0.0
+Real Parameter 2                                =0.0
+Real Parameter 3                                =0.0
+Real Parameter 4                                =0.0
+Real Parameter 5                                =0.0
+Real Parameter 6                                =0.0
+Real Parameter 7                                =0.0
+Real Parameter 8                                =0.0
+Real Parameter 9                                =0.0
+Real Parameter 10                               =0.0
+Integer Parameter 1                             =0
+Integer Parameter 2                             =0
+Integer Parameter 3                             =0
+Integer Parameter 4                             =0
+#######################################################
+ 
+DYNAMIC OPTIONS: 0=no update,1=timesteps,2=time length
+ 
+POSTPROCESSING OPTIONS: 1=density, 2=velocity, 3=pressure,
+   4=scalars, 5=velocitystar, 6=vorticity, 7=temperature,
+   8=lambda2, 9=levelsets, 10=vells, 11=accls, 12=normals,
+   13=cpt_flag, 14=shear stress, 15=ent,16 = RSPECIES,17 = SHADOWGRAPH 18=SCHLN,
+   19=IE, 20=MA, 21=Refcrit
+ 
+#######################################################

@@ -1,0 +1,208 @@
+##########################################################
+Objects
+##########################################################
+$MAT1 Number of Objects *********************** =1
+$LSField Surface mesh file format-------------  =1
+surface mesh type-----------------------------  =2
+type of surface                                 =2
+plot surface mesh (Y/N)                         =0
+switch mesh element orientation (Y/N)           =0
+surface mesh scaling system (x)                 =1.0
+surface mesh scaling system (y)                 =1.0
+surface mesh scaling system (z)                 =1.0
+surface mesh scaling augmented  (x)             =1.0
+surface mesh scaling augmented  (y)             =1.0
+surface mesh scaling augmented  (z)             =1.0
+surface mesh offset  (x)                        =0.0
+surface mesh offset  (y)                        =0.0
+surface mesh offset  (y)                        =0.0
+have own connectivity allocated  (Y/N)          =0
+connectivity object                             =1
+$SHAPeType  ----------------------------------- =4
+Center x                                        =5.0
+Center y                                        =2.5
+Center z                                        =5.0
+Radius                                          =0.5
+Height (cyl)                                    =0.3
+Height (old cyl)                                =0.3
+Scale x                                         =1.0
+Scale y                                         =1.0
+Scale z                                         =1.0
+Rotation x                                      =0.0
+Rotation y                                      =0.0
+Rotation z                                      =0.0
+Fillet                                          =0.2
+Mesh dx for cuboids                             =0.01
+Mesh dy for cuboids                             =0.01
+Mesh dz for cuboids                             =0.01
+Slices (cyl/sph)                                =6
+Body rings (cyl/sph)                            =10
+Face rings (cyl)                                =10
+$MAT2 Number of Objects *********************** =2
+$LSField Surface mesh file format-------------  =2
+surface mesh type-----------------------------  =3
+type of surface                                 =2
+plot surface mesh (Y/N)                         =1
+switch mesh element orientation (Y/N)           =1
+surface mesh scaling system (x)                 =3.01
+surface mesh scaling system (y)                 =3.02
+surface mesh scaling system (z)                 =3.0
+surface mesh scaling augmented  (x)             =3.0
+surface mesh scaling augmented  (y)             =3.0
+surface mesh scaling augmented  (z)             =3.0
+surface mesh offset  (x)                        =3.51
+surface mesh offset  (y)                        =3.52
+surface mesh offset  (y)                        =4.1111
+have own connectivity allocated  (Y/N)          =1
+connectivity object                             =1
+$SHAPeType  ----------------------------------- =1
+Center x                                        =10.0
+Center y                                        =40.0
+Center z                                        =40.0
+Radius                                          =7.0
+Height (cyl)                                    =0.5
+Height (old cyl)                                =0.6
+Scale x                                         =1.0
+Scale y                                         =1.0
+Scale z                                         =1.0
+Rotation x                                      =0.0
+Rotation y                                      =0.0
+Rotation z                                      =0.0
+Fillet                                          =0.13
+Mesh dx for cuboids                             =0.14
+Mesh dy for cuboids                             =0.15
+Mesh dz for cuboids                             =0.16
+Slices (cyl/sph)                                =40
+Body rings (cyl/sph)                            =40
+Face rings (cyl)                                =19
+$LSField Surface mesh file format-------------  =2
+surface mesh type-----------------------------  =3
+type of surface                                 =2
+plot surface mesh (Y/N)                         =1
+switch mesh element orientation (Y/N)           =1
+surface mesh scaling system (x)                 =3.01
+surface mesh scaling system (y)                 =3.02
+surface mesh scaling system (z)                 =3.0
+surface mesh scaling augmented  (x)             =3.0
+surface mesh scaling augmented  (y)             =3.0
+surface mesh scaling augmented  (z)             =3.0
+surface mesh offset  (x)                        =3.51
+surface mesh offset  (y)                        =3.52
+surface mesh offset  (y)                        =4.1111
+have own connectivity allocated  (Y/N)          =1
+connectivity object                             =1
+$SHAPeType  ----------------------------------- =2
+Center x                                        =10.0
+Center y                                        =40.0
+Center z                                        =10.0
+Radius                                          =7.0
+Height (cyl)                                    =4.5
+Height (old cyl)                                =0.6
+Scale x                                         =1.0
+Scale y                                         =1.0
+Scale z                                         =1.0
+Rotation x                                      =0.0
+Rotation y                                      =0.0
+Rotation z                                      =0.0
+Fillet                                          =0.13
+Mesh dx for cuboids                             =0.14
+Mesh dy for cuboids                             =0.15
+Mesh dz for cuboids                             =0.16
+Slices (cyl/sph)                                =40
+Body rings (cyl/sph)                            =40
+Face rings (cyl)                                =19
+$MAT3 Number of Objects *********************** =2
+$LSField Surface mesh file format-------------  =2
+surface mesh type-----------------------------  =3
+type of surface                                 =2
+plot surface mesh (Y/N)                         =1
+switch mesh element orientation (Y/N)           =1
+surface mesh scaling system (x)                 =3.01
+surface mesh scaling system (y)                 =3.02
+surface mesh scaling system (z)                 =3.0
+surface mesh scaling augmented  (x)             =3.0
+surface mesh scaling augmented  (y)             =3.0
+surface mesh scaling augmented  (z)             =3.0
+surface mesh offset  (x)                        =3.51
+surface mesh offset  (y)                        =3.52
+surface mesh offset  (y)                        =4.1111
+have own connectivity allocated  (Y/N)          =1
+connectivity object                             =1
+$SHAPeType  ----------------------------------- =2
+Center x                                        =40.0
+Center y                                        =10.0
+Center z                                        =10.0
+Radius                                          =5.0
+Height (cyl)                                    =5.0
+Height (old cyl)                                =0.3
+Scale x                                         =1.0
+Scale y                                         =1.0
+Scale z                                         =1.0
+Rotation x                                      =0.0
+Rotation y                                      =0.0
+Rotation z                                      =0.0
+Fillet                                          =0.01
+Mesh dx for cuboids                             =0.3
+Mesh dy for cuboids                             =0.3
+Mesh dz for cuboids                             =0.3
+Slices (cyl/sph)                                =40
+Body rings (cyl/sph)                            =40
+Face rings (cyl)                                =12
+$LSField Surface mesh file format-------------  =2
+surface mesh type-----------------------------  =3
+type of surface                                 =2
+plot surface mesh (Y/N)                         =1
+switch mesh element orientation (Y/N)           =1
+surface mesh scaling system (x)                 =3.01
+surface mesh scaling system (y)                 =3.02
+surface mesh scaling system (z)                 =3.0
+surface mesh scaling augmented  (x)             =3.0
+surface mesh scaling augmented  (y)             =3.0
+surface mesh scaling augmented  (z)             =3.0
+surface mesh offset  (x)                        =3.51
+surface mesh offset  (y)                        =3.52
+surface mesh offset  (y)                        =4.1111
+have own connectivity allocated  (Y/N)          =1
+connectivity object                             =1
+$SHAPeType  ----------------------------------- =1
+Center x                                        =10.0
+Center y                                        =10.0
+Center z                                        =10.0
+Radius                                          =5.0
+Height (cyl)                                    =5.0
+Height (old cyl)                                =0.3
+Scale x                                         =1.0
+Scale y                                         =1.0
+Scale z                                         =1.0
+Rotation x                                      =0.0
+Rotation y                                      =0.0
+Rotation z                                      =0.0
+Fillet                                          =0.01
+Mesh dx for cuboids                             =0.3
+Mesh dy for cuboids                             =0.3
+Mesh dz for cuboids                             =0.3
+Slices (cyl/sph)                                =40
+Body rings (cyl/sph)                            =40
+Face rings (cyl)                                =12
+#######################################################
+ 
+SURFACE MESH OPTIONS: 2d(2) Tri(3) Quad(4)
+SURFACE TYPE OPTIONS:  Closed(1)End-to-End(2)
+INTERFACE TYPE OPTIONS:    Free Surface(0) Solid Fixed(1) Liquid(2)
+Solid Elastoplastic(3) Solid Mesh(4) Solid FEM(5) Solid Lumped(6) Solid UserDef(7)
+PHASE OPTIONS:    Free Surface(0) Solid(1) Liquid(2) Solid Elastoplastic(3)
+LS MVMT OPTIONS:  PDE Advection(1) GENLS(2)
+LS INITIALIZATION OPTIONS:  USER(1) GENLS(2)
+ 
+Shape Numbering: RECTANGULAR CUBOID(1) SPHERE(2) CYLINDER(3)
+USER_DEF_PARTICLES_IN_GAS(4) USER_DEF_OTHER(5)
+a) RECTANGLE: Parameter 1= Xmin Parameter 2= Ymin Parameter 3= Zmin Parameter 
+4= Length(Ymax-Ymin) Parameter 5= Width(Xmax-Xmin) Parameter 10 = Radius of Fillet
+b) SPHERE: Parameter 1 = XCenter Parameter 2 = YCenter Parameter 3 = ZCenter 
+Parameter 4 = Radius Parameter 5 = Junk Parameter 6 = Junk
+c) CYLINDER:Parameter 1= XCenter Parameter 2= YCenter Parameter 3= ZCenter 
+Parameter 4= Bar Radius Parameter 5= Dist of lower face from bottom 
+Parameter 6= Height  Parameter 10 = Radius of Fillet 
+d) PARTICLES IN GAS: Parameter 1= Radius of the Cylinders
+ 
+#######################################################

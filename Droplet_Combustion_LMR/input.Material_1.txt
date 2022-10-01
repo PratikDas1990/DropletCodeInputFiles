@@ -1,0 +1,123 @@
+##########################################################
+Material_1
+##########################################################
+Phase------------------------------------------ =1
+Material Type                                   =33
+PLASTICITY TYPE                                 =1
+Crystal_Plasticity_Loading_Direction            =0.0,0.0,0.0
+Damage Model                                    =0
+density                                         =1.0
+viscosity                                       =0.003
+thermal conductivity (k)                        =0.5
+Boussinesq coefficient                          =0.223
+Melting temp (lower limit)                      =0.223
+Melting temp (upper limit)                      =0.223
+Latent heat                                     =0.223
+Cp                                              =1.0
+Mach number                                     =0.115
+surface tension                                 =1.28
+Prandtl number                                  =0.116
+$ICInitial temperature------------------------- =2743.0
+Initial density                                 =2030.0193595121700
+Initial velocity u                              =0.0
+Initial velocity v                              =0.0
+Initial velocity w                              =0.0
+Initial pressure                                =376120.757
+Shock location                                  =-1.0
+dyn. BC def (0,1,2 Zero,Pot,UserDef)            =0
+IC Type (0,1,2 Zero,Pot,UserDef)                =0
+$Interface type-------------------------------- =2
+treatment type(GFM=1,SPM=2)                     =1
+GFM moving scheme(ext=1,fresh=2,hybrid=3)       =1
+LS movement scheme(PDE=1,GenLS=2)               =1
+LS generation scheme (stand=1,import=2)         =3
+$SIMMotion (TRANSL=1,ROTATION=2)--------------- =1
+density_solid/density_fluid                     =1.0
+natural frequency                               =1.07
+damping coefficient                             =1.07
+Froude number                                   =1.0
+initial center of mass velocity  x              =1.0
+initial center of mass velocity  y              =1.0
+initial center of mass velocity  z              =1.0
+initial center of mass acceleration  x          =1.0
+initial center of mass acceleration  y          =1.0
+initial center of mass acceleration  z          =1.0
+fixed rotation axis                             =0
+fixed rotation axis center  x                   =1.0
+fixed rotation axis center  y                   =1.0
+fixed rotation axis center  z                   =1.0
+initial rotation angle                          =1.0
+initial rotation rate                           =0.0
+initial rotation acceleration                   =0.0
+minimum rotation angle                          =10000.0
+maximum rotation angle                          =10000.0
+$SPMParticles available as linked list?-------- =0
+Type of SPM generation (analytic=0/ls=1)        =0
+Random Placement of the partilces(yes=1/No=0)   =1
+Particle shape                                  =1
+Particle diameters (x_dir)                      =1.0
+Particle diameters (y_dir)                      =1.0
+Particle diameters (z_dir)                      =1.0
+Number of particles to start linked list        =50
+Density of the particle                         =2.0
+Distance among the particle (x-dir)             =2.0
+Distance among the particle (y-dir)             =2.0
+Distance among the particle (z-dir)             =2.0
+Motion (Fix=0,TRANSL.=1,F.A.ROTATION=2)         =1
+Froude Number                                   =0.1
+Initial Velocity (x-dir)                        =0.0
+Initial Velocity (y-dir)                        =0.0
+Initial Velocity (z-dir)                        =0.0
+Initial Location (x-dir)                        =6.0
+Initial Location (y-dir)                        =6.0
+Initial Location (z-dir)                        =6.0
+Particle Box dimensions (x-dir)                 =3.0
+Particle Box dimensions (y-dir)                 =3.0
+Particle Box dimensions (z-dir)                 =3.0
+$ELAS EOS Type------------------------------    =1
+Number of EOS Parameters                        =0
+Elasticity (YES=1,NO=0)                         =0
+Model Type (Elasticity)                         =1
+Number of Elasticity Parameters                 =0
+Viscoelasticity (YES=1,NO=0)                    =0
+Model Type  (Viscoelastic)                      =1
+Number of Viscoelasticity Parameters            =0
+Use Plasticity (YES=1,NO=0)                     =0
+Model Type  (Viscoplasticity)                   =1
+Number of Viscoplastic Parameters               =0
+#######################################################
+ 
+Bulk Fluid Type: FREE-SURFACE(0) LIQUID(2) SOLID-ELASTOPLASTIC(3)
+Material Type: RIGID SOLID(1) VOID(2) AIR_INVISCID_STIFFENEDEOS(3) AIR_VISCOUS_STIFFENEDEOS(4) 
+WATER_INVISCID_STIFFENEDEOS(5) WATER_VISCOUS_STIFFENEDEOS(6) COPPER_JOHNSONCOOK_MG(7) 
+STEEL_JOHNSONCOOK_MG(8) TUNGSTEN_JOHNSONCOOK_MG(9) HMX_JOHNSONCOOK_MG(10) 
+MILDSTEEL_JOHNSONCOOK_MG(11) ALUMINUM_JOHNSONCOOK_MG(12) USER DEFINED(13)
+ 
+  ! Types of Interfaces
+  INTEGER,PARAMETER                            :: FREE_SURFACE              = 0
+  INTEGER,PARAMETER                            :: SOLID_FIXED               = 1
+  INTEGER,PARAMETER                            :: LIQUID                    = 2
+  INTEGER,PARAMETER                            :: SOLID_ELASTOPLASTIC       = 3
+  INTEGER,PARAMETER                            :: SOLID_MESH                = 4
+  INTEGER,PARAMETER                            :: SOLID_FEM                 = 5
+  INTEGER,PARAMETER                            :: SOLID_LUMPED              = 6
+  INTEGER,PARAMETER                            :: SOLID_LUMPED_COMPRESSIBLE = 7
+  INTEGER,PARAMETER                            :: SOLID_VISCOELASTIC        = 8
+  INTEGER,PARAMETER                            :: SOLID_USERDEF             = 9
+  ! Material type labels
+  INTEGER,PARAMETER :: RIGID_SOLID              = 1
+  INTEGER,PARAMETER :: VOID                     = 2
+  INTEGER,PARAMETER :: AIR_INVISCID_IDEAL       = 3
+  INTEGER,PARAMETER :: AIR_VISCOUS_STIFFENEDEOS = 4 
+  INTEGER,PARAMETER :: WATER_INVISCID_STIFFENED = 5
+  INTEGER,PARAMETER :: WATER_VISCOUS_STIFFENED  = 6
+  INTEGER,PARAMETER :: COPPER_JC_MG             = 7
+  INTEGER,PARAMETER :: STEEL_JC_MG              = 8
+  INTEGER,PARAMETER :: TUNGSTEN_JC_MG           = 9
+  INTEGER,PARAMETER :: HMX_JC_MG                = 10
+  INTEGER,PARAMETER :: MILDSTEEL_JC_MG          = 11
+  INTEGER,PARAMETER :: ALUMINUM_JC_MG           = 12
+  INTEGER,PARAMETER :: ESTANE_BINDER            = 13
+  INTEGER,PARAMETER :: USER_DEFINED_MATERIAL    = 14
+  INTEGER,PARAMETER :: NITROMETHANE             = 15
+#######################################################
